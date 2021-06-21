@@ -1,0 +1,35 @@
+$flex: flex;
+
+
+div .row, .cajaFooterFlex{
+    display: $flex;
+}
+
+.cajaFooterFlex{
+    margin: 0px;
+    padding: 0px;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+div .row{
+    justify-content:space-around;
+    align-items:flex-end;
+}
+
+div .col-1{
+    padding: 0px !important;
+}
+
+.menuFooter a{
+    text-decoration: none;
+}
+
+.cajaFooterFlex li{
+    list-style: none;
+}
+
+h3{
+    align-items:center;
+    font-weight: 600;
+}

@@ -1,0 +1,26 @@
+$azul:#000872;
+$gris:#C1BFC1;
+
+
+
+.bg-light{
+    background: $gris !important;
+}
+
+.navbar-nav, .nav-link{
+    color: $azul !important;
+}
+
+
+.nuestraPropuesta, footer{
+    background-color: $azul;
+    p{
+        color: $gris;
+    }
+}
+
+.btn-primary, .btn-success{
+    color: $gris;
+    background-color: $azul;
+    border-color: $azul;
+}

@@ -1,0 +1,45 @@
+$tamanioFuente: 22px;
+$padding: 15px;
+$margin-top: 15px;
+$margin-bottom: 15px;
+
+
+.nuestraPropuesta p{
+    padding-top: 30px;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.navbar-nav .nav-link {
+    font-size: $tamanioFuente;
+    padding: $padding !important;
+}
+
+.btn-primary {
+    margin-top: $margin-top;
+    margin-bottom: $margin-bottom;
+}
+
+footer .iconos{
+    height: 50px !important;
+    width: 50px !important;
+}
+
+div .row img{
+    width: 300px;
+    height: 300px;
+}
+
+.btn-success {
+    margin-bottom: 10px;
+}
+
+div .col-1 img{
+    width: 130px;
+    height: 130px;
+}
+
+div .col-lg-12{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}

@@ -1,0 +1,28 @@
+@import "colores";
+@import "tamanios";
+@import "responsive";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.transition{
+    transition: all 1s;  
+  }
+  
+.transition:hover{
+    transform: translateY(-15px);
+}
+
+
+
+
+
+

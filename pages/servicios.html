@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3º pre-entrega Proyecto Final</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/servicios.css">
+</head>
+<body>
+  <header class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12 col-xs-12">
+          <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#opciones">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+                <!-- logo -->
+            <a class="navbar-brand" href="index.html">
+              <img src="../img/logo-150x150.jpg" alt="logo-bua">
+            </a>
+                <!-- enlaces -->
+            <div class="collapse navbar-collapse" id="opciones">   
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="../index.html">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+                <li class="nav-item"><a class="nav-link" href="../pages/clientes.html">Clientes</a></li>
+                <li class="nav-item"><a class="nav-link" href="../pages/trabajos.html">Trabajos</a></li>
+                <li class="nav-item"><a class="nav-link" href="../pages/contacto.html">Contacto</a></li>
+              </ul>
+            </div>
+          </nav>
+      </div>
+    </div>
+  </header>
+
+      <section class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <img src="../img/banner-servicios.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+            </div>
+         </div>
+        </div>
+    </section>
+
+    <section class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 col-xs-12 nuestraPropuesta">
+            <p>Ofrecemos diseños personalizados de Ecommerce en Tienda Nube. Creamos tiendas online autoadministrables, adaptables a cualquier dispositivo y conectada con múltiples pasarelas de pago y medios de envío.</p>
+          </div>
+        </div>
+     </section>
+
+    <section class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 col-xs-12 text-center">
+                <img id="captura" src="../img/captura-sitio.jpg">
+            </div>
+            <div class="col-lg-3 col-xs-12 text-center">
+                <img class="imgSer" src="../img/icono-responsive.jpg">
+            </div>
+            <div class="col-lg-3 col-xs-12 text-center">
+                <img class="imgSer" src="../img/icono-moderno.jpg">
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12 col-xs-12">
+            <h3>Nuestros Servicios</h3>
+          </div>
+        </div>
+    </section>
+
+    <section class="container-fluid">
+        <div class="row" data-aos="fade-right">
+          <div class="col-lg-2 col-xs-12 text-center">
+            <img class="transition imgServicios" src="../img/servicio1.png">
+          </div>
+          <div class="col-lg-2 col-xs-12 text-center">
+            <img class="transition imgServicios" src="../img/servicio2.png">
+          </div>
+          <div class="col-lg-2 col-xs-12 text-center">
+            <img class="transition imgServicios" src="../img/servicio3.png">
+          </div>
+          <div class="col-lg-2 col-xs-12 text-center">
+            <img class="transition imgServicios" src="../img/reportes.png">
+          </div>
+          <div class="col-lg-2 col-xs-12 text-center">
+            <img class="transition imgServicios" src="../img/asesorias.png">
+          </div>
+          <div class="col-lg-2 col-xs-12 text-center">
+            <img class="transition imgServicios" src="../img/socialmedia.png">
+          </div>
+        </div>
+      </section>
+
+      <section id="contacto">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <h2>Contactame</h2>
+              <hr class="star-primary">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+              <form name="sentMessage" id="contactForm" novalidate>
+                <div class="row control-group">
+                  <div class="form-group col-xs-12 floating-label-form-group controls">
+                    <label>Name</label>
+                    <input type="text" class="form-control" placeholder="Nombre" id="name" required data-validation-required-message="Por favor, ingrese su name.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="row control-group">
+                  <div class="form-group col-xs-12 floating-label-form-group controls">
+                    <label>Email</label>
+                    <input type="email" class="form-control" placeholder="Email" id="email" required data-validation-required-message="Por favor, ingrese su email address.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="row control-group">
+                  <div class="form-group col-xs-12 floating-label-form-group controls">
+                    <label>Número de teléfono</label>
+                    <input type="tel" class="form-control" placeholder="Número de teléfono" id="phone" required data-validation-required-message="Por favor, ingrese su número de teléfono.">
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="row control-group">
+                  <div class="form-group col-xs-12 floating-label-form-group controls">
+                    <label>Mensaje</label>
+                    <textarea rows="5" class="form-control" placeholder="Mensaje" id="message" required data-validation-required-message="Por favor, ingrese un mensaje."></textarea>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <br>
+                <div id="success"></div>
+                <div class="row text-center">
+                  <div class="form-group col-xs-12">
+                    <button type="submit" class="btn btn-success btn-lg">Enviar</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <footer class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 col-xs-12">
+                <p>©Búa - Desarrollo Web Ecommerce</p>
+            </div>
+            <div class="col-lg-8 col-xs-12">
+                <ul class="cajaFooterFlex">
+                    <li> <img class="iconos" src="../img/instagram.png"> </li>
+                    <li> <img class="iconos" src="../img/facebook.png"> </li>
+                    <li> <img class="iconos" src="../img/linkedin.png"> </li> 
+                </ul>
+            </div>
+            <div class="col-lg-1 col-xs-12 text-right">
+                <img class="iconos" src="../img/wtp.jpg">
+            </div>       
+        </div>
+  </footer>
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>    
+<!--Bootstrap Bundle con Popper -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>
